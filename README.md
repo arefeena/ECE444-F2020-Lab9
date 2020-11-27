@@ -60,4 +60,8 @@ The mobile score for this page was 63. Similar to the desktop diagnostics, there
 
 ## Activity 4.3
 
-todo
+Although we used Flask as a framework for the web application as a whole, the frontend work for _Apprentice_ was mostly done using **vanilla HTML/CSS/JS (i.e. no framework)** with Jinja as a templating engine to interface the frontend with Flask.
+
+That being said, we did use some **Bootstrap** which could count as a CSS framework. Bootstrap helped us style elements such as buttons and form fields with minimal effort. It also has extensive documentation and readily available integrations with Flask, so it was easy for us to pick up.
+
+Looking back after having done this lab, it would have been a good idea to use a proper frontend framework for our project as it would have made development much easier.
