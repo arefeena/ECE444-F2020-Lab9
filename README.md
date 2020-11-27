@@ -10,7 +10,53 @@ The repository can be accessed here: [https://github.com/arefeena/ECE444-F2020-L
 
 ## Activity 4.2
 
-todo
+### Homepage
+
+Here are the insights for [the homepage](http://localghosts.eastus.cloudapp.azure.com/):
+
+#### Desktop
+
+The desktop score for this page was 79. The diagnostics point to an issue with asset size, namely the background image we use.
+
+![Desktop diagnostics](/docs/lab-9-activity-2-diagnostic-1-d.png)
+
+#### Mobile
+
+The mobile score for this page was 62. Similar to the desktop diagnostics, there are concerns about the assets.
+
+![Mobile diagnostics](/docs/lab-9-activity-2-diagnostic-1-m.png)
+
+### Search Results
+
+Here are the insights for [the search results of a "chicken" query](http://localghosts.eastus.cloudapp.azure.com/search?query=chicken):
+
+#### Desktop
+
+The desktop score for this page was 91. The diagnostics again refer to the assets.
+
+![Desktop diagnostics](/docs/lab-9-activity-2-diagnostic-2-d.png)
+
+#### Mobile
+
+The mobile score for this page was 69. Similar to the desktop diagnostics, there are concerns about the assets.
+
+![Mobile diagnostics](/docs/lab-9-activity-2-diagnostic-2-m.png)
+
+### Recipe Display
+
+Here are the insights for [a chicken curry recipe](http://localghosts.eastus.cloudapp.azure.com/recipe/E23i3nUBUZACkMsevuzz):
+
+#### Desktop
+
+The desktop score for this page was 98. This time, the diagnostics point to unoptimized loading practices (such as webfonts and passive scroll listeners).
+
+![Desktop diagnostics](/docs/lab-9-activity-2-diagnostic-3-d.png)
+
+#### Mobile
+
+The mobile score for this page was 63. Similar to the desktop diagnostics, there are concerns about the loading performance including use of 3rd party code.
+
+![Mobile diagnostics](/docs/lab-9-activity-2-diagnostic-3-m.png)
 
 ## Activity 4.3
 
